@@ -57,7 +57,7 @@ function displayQuestionOnClick(){
   askButton = document.querySelector(".waves-effect")
 
   askButton.addEventListener("click", (e)=>{
-
-
+    toggleTrueAndFalseButtons()
+    askQuestionThenRemoveQuestion(time)
   })
 }
